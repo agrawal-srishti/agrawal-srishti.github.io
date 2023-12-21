@@ -1,0 +1,77 @@
+/* Reset some default styles for consistency across browsers */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Choose a suitable font family */
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Set a default text color */
+}
+
+/* Header styles */
+header {
+    background-color: #f8f8f8; /* Set header background color */
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+}
+
+/* About section styles */
+#about {
+    padding: 20px;
+}
+
+#about h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Add rounded corners to the profile picture */
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    body {
+        font-size: 14px;
+    }
+}
